@@ -8,9 +8,9 @@ hours = years * 365 * 24
 puts "That's #{hours} hours."
 
 puts "Enter a number of decades"
-decades = gets.chomp.to_i
+decades = gets.chomp.to_i # this chains method returning an integer from a string
 minutes = decades * 10 * 365 * 24 * 60
-puts "That's #{minutes} minutes" 
+puts "That's #{minutes} minutes"
 
 puts "How old are you?"
 age = gets.chomp.to_i
